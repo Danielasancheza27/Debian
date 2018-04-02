@@ -1,0 +1,14 @@
+[connection]
+id=Wired connection 1
+uuid=d0667a17-4e3e-4202-b8b8-d748eeeb2428
+type=ethernet
+timestamp=1521084538
+
+[ipv6]
+method=auto
+ip6-privacy=2
+
+[ipv4]
+method=auto
+dns=192.168.21.3;
+address1=192.168.21.3/24

@@ -1,0 +1,14 @@
+; BIND data file for local easycom.net;
+
+$TTL	604800
+@	IN	SOA	dns.easycom.net.com.co. root.easycom.net.com.co. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+
+@	IN	NS	dns.easycom.net.com.co.
+1	IN 	PTR	dns.easycom.net.com.co.
+
